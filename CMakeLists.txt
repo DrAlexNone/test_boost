@@ -8,7 +8,7 @@ set(BOOST_ROOT "C:/Dima/CPP/boost_1_82_0")  # or "C:/boost"
 set(BOOST_INCLUDEDIR "${BOOST_ROOT}/boost")
 set(BOOST_LIBRARYDIR "${BOOST_ROOT}/stage/lib")
 
-# Try to find Boost
+#  Try to find Boost
 set(Boost_DEBUG ON)  # Enable debug output
 find_package(Boost 1.82 REQUIRED COMPONENTS )
 
